@@ -28,10 +28,16 @@ AlphabetSoup is attempting to use Neural Network Deep Learning to vet contributi
 AFFILIATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS.
 - No other modifications were made.  Accuracy actually went down to 72.4 %
 
+![05](https://user-images.githubusercontent.com/106561880/196843750-0708bb5c-8b85-49c7-a445-5a4112243baf.png)
+
 ### Attempt 2
 - Reverting back to the original preprocessing, the second attempt significantly added neurons and added a hidden layer.
 
+![06](https://user-images.githubusercontent.com/106561880/196843830-b586dd6f-e8c4-4730-ba48-215d3ac2ba55.png)
+
 - Accuracy still shows 72.4%
+
+![07](https://user-images.githubusercontent.com/106561880/196843842-9afc4a61-a73e-4cac-a753-b7bc391b4e85.png)
 
 
 ### Attempt 3
@@ -39,6 +45,7 @@ AFFILIATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS.
 - The number of epochs were also increased to 200.
 - Accuracy slightly improved to 72.7%
 
+![08](https://user-images.githubusercontent.com/106561880/196843868-8b4eba20-ae90-4b5a-8d31-bb756a343d68.png)
 
 - **Additional Results:**  
 After three attempts there was minimal improvement.  Accuracy is at 72.7%.  The number of epochs was not updated.  Looking through the model training, there was minimal accuracy improvement even after the 5th epoch.
